@@ -1,14 +1,18 @@
 # Scramble OLED + Encoder Keymap
-A Nullbits Scramble macropad QMK keymap for the OLED + Rotary Encoder configuration.
+QMK keymap for the [Nullbits Scramble macropad](https://nullbits.co/scramble/) in OLED + Encoder configuration.
 
-Includes an OLED animation I made from a vector graphic following some online tutorials.
+Includes an OLED animation I made from vector graphics following some online tutorials.
 
-Rotary encoder is mapped to control volume, but could be ported to VIAL if anybody wants to do that.
+Rotary encoder is mapped to control volume, but could be ported to VIAL if anybody wants to make a PR for that.
 
 ## Installation
-Download the `nullbitsco_scramble_oledvia.hex` file and flash your Scramble PCB with QMK Toolbox.
+Download the `nullbitsco_scramble_oledvia.hex` file in this repo and flash your Scramble PCB with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
 
-### If you want to modify the code:
+## Development
+### Requirments
+ - Install and set up [QMK](https://docs.qmk.fm/#/newbs_getting_started).
+
+### Setup
 1. Add the `oledvia` directory in this repo to the scramnle keymaps directory of your local QMK install:
 ```
 /keyboards/nullbitsco/scramble/keymaps
@@ -18,4 +22,4 @@ Download the `nullbitsco_scramble_oledvia.hex` file and flash your Scramble PCB 
 ```
 qmk compile -kb nullbitsco/scramble -km oledvia
 ```
-4. Use the generated `nullbitsco_scramble_oledvia.hex` file and flash your Scramble PCB with QMK Toolbox
+4. Use the generated `nullbitsco_scramble_oledvia.hex` file and flash your Scramble PCB with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
