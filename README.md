@@ -6,7 +6,7 @@ Includes an [OLED animation](oledvia/oled_ed.h) I made from vector graphics foll
 The Rotary encoder [default mapping](https://github.com/mcurren/scramble-oled/blob/9a1999ff509de581443132e7fd0acd0f00dd51e0/oledvia/keymap.c#L64-L71) is for volume control, but this keymap could be ported to VIAL if anybody wants to make a PR for that.
 
 ## Installation
-Download the [hex file](nullbitsco_scramble_oledvia.hex) in this repo and flash your Scramble PCB with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
+Download the [hex file](https://raw.githubusercontent.com/mcurren/scramble-oled/main/nullbitsco_scramble_oledvia.hex) in this repo and flash your Scramble PCB with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
 
 ## Development
 ### Requirments
